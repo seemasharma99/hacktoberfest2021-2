@@ -1,0 +1,59 @@
+/* Knight Rider 1
+* --------------
+*
+* Basically an extension of Blink_LED.
+*
+*
+* 
+*/
+int pin2 = 2;
+int pin3 = 7;
+int pin4 = 8;
+int pin5 = 12;
+int pin7 = 13;
+int timer = 1000;
+void setup(){
+pinMode(pin2, OUTPUT);
+pinMode(pin3, OUTPUT);
+pinMode(pin4, OUTPUT);
+pinMode(pin5, OUTPUT);
+pinMode(pin7, OUTPUT);
+}
+void loop() {
+digitalWrite(pin2, HIGH);
+delay(timer);
+digitalWrite(pin2, LOW);
+delay(timer);
+digitalWrite(pin3, HIGH);
+delay(timer);
+digitalWrite(pin3, LOW);
+delay(timer);
+digitalWrite(pin4, HIGH);
+delay(timer);
+digitalWrite(pin4, LOW);
+delay(timer);
+digitalWrite(pin5, HIGH);
+delay(timer);
+digitalWrite(pin5, LOW);
+delay(timer);
+digitalWrite(pin7, HIGH);
+delay(timer);
+digitalWrite(pin7, LOW);
+delay(timer);
+digitalWrite(pin5, HIGH);
+delay(timer);
+digitalWrite(pin5, LOW);
+delay(timer);
+digitalWrite(pin4, HIGH);
+delay(timer);
+digitalWrite(pin4, LOW);
+delay(timer);
+digitalWrite(pin3, HIGH);
+delay(timer);
+digitalWrite(pin3, LOW);
+delay(timer);
+digitalWrite(pin2, HIGH);
+delay(timer);
+digitalWrite(pin2, LOW);
+delay(timer);
+}
